@@ -2,11 +2,11 @@ import React from 'react'
 
 function Home (){
     return(
-        <div id="home" name="home" className=" bg-no-repeat bg-cover bg-center bg-fixed">
+        <div id="home" name="home" className=" bg-hero-pattern h-screen bg-no-repeat bg-cover bg-center bg-fixed">
 
-            <p>HOME</p>
+            <p className='text-black'>HOME</p>
         </div>
     )
 }
 
-export default Home
+export default Home;

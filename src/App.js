@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Art from "./pages/art/Art";
 import PlateShop from "./pages/plate-shop/Plate-Shop.jsx";
 import About from "./pages/about/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (<Router>
@@ -17,7 +18,7 @@ function App() {
   <Route path='plate-shop' element={<PlateShop/>}/>
   <Route path='about' element={<About/>}/>
  </Routes>
-
+<Footer/>
   </Router>
 
  
