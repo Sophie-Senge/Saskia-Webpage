@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./src/components/assets/images/Saskia-landing-page.jpg')",
+      },
+      fontFamily: {
+    
+        headings: ['Work Sans', 'sans-serif'],
+    
+      },
+
+    },
   },
   plugins: [],
 }
