@@ -1,24 +1,24 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
+    <nav className="nav flex flex-row justify-items-center fixed top-0 z-10 w-full h-20 bg-slate-600">
+      <ul className="flex-row">
+        <li className="">
+          <NavLink to="/">Saskia Spender</NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/art">Art</Link>
+          <NavLink to="/art">Art</NavLink>
         </li>
         <li>
-          <Link to="/plate-shop">Plate Shop</Link>
+          <NavLink to="/plate-shop">Plate Shop</NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </nav>
