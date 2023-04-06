@@ -2,18 +2,18 @@ import React from 'react';
 
 function Footer (){
     return(
-        <section className="h-full w-full flex bg-white">
-        <div className=" mx-auto flex flex-row justify-center text-center py-3">
+        <div className="w-full flex bg-white fixed bottom-0">
+        <div className=" mx-auto flex flex-row justify-center text-center py-4">
        
-            <p className="mt-4 px-2 text-xs font-headings leading-6  text-black">
+           <a href="https://leliascarfiotti.com/"> <p className="mt-4 px-2 text-xs font-headings leading-6  text-black">
             photo©2020 lelia scarfiotto
-            </p>
-            <p className="mt-4 px-2 font-headings text-xs leading-6 text-black">
+            </p></a>
+            <a href="https://sophieperks.com/"><p className="mt-4 px-2 font-headings text-xs leading-6 text-black">
             built by sophie perks 2023
-            </p>
+            </p></a>
         </div>
         
-    </section>
+    </div>
     )
 }
 
