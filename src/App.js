@@ -8,6 +8,11 @@ import PlateShop from "./pages/plate-shop/Plate-Shop.jsx";
 import About from "./pages/about/About";
 import Footer from "./components/Footer";
 import Vases from "./pages/Vases/Vases";
+import Baskets from "./pages/Baskets/Baskets";
+import Bowls from "./pages/Bowls/Bowls";
+import Dreamscapes from "./pages/Dreamscapes/Dreamscapes";
+import Sculptures from "./pages/Sculptures/Sculptures";
+import Walls from "./pages/Walls/Walls";
 
 function App() {
   return (<Router>
@@ -19,6 +24,11 @@ function App() {
   <Route path='plate-shop' element={<PlateShop/>}/>
   <Route path='about' element={<About/>}/>
   <Route path='vases' element={<Vases/>}/>
+  <Route path='baskets' element={<Baskets/>}/>
+  <Route path='bowls' element={<Bowls/>}/>
+  <Route path='dreamscapes' element={<Dreamscapes/>}/>
+  <Route path='walls' element={<Walls/>}/>
+  <Route path='sculptures' element={<Sculptures/>}/>
  </Routes>
 
 <Footer/>
