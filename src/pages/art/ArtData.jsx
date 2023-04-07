@@ -2,7 +2,7 @@ const artList = [
     {
         id: 1,
         title: "Vases",
-        image: require("./artImages/DSCF4101.JPG"),
+        image: require("./artImages/100-9722.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/vases'
 
@@ -10,7 +10,7 @@ const artList = [
     {
         id: 2,
         title: "Baskets",
-        image: require("./artImages/DSCF4107.JPG"),
+        image: require("./artImages/101-0194 copy.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/baskets'
 
@@ -18,7 +18,7 @@ const artList = [
     {
         id: 3,
         title: "Bowls",
-        image: require("./artImages/DSCF4108.JPG"),
+        image: require("./artImages/100-9989.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/bowls'
 
@@ -26,7 +26,7 @@ const artList = [
     {
         id: 4,
         title: "Dreamscapes",
-        image: require("./artImages/DSCF4108.JPG"),
+        image: require("./artImages/IMG_0953.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/dreamscapes'
 
@@ -34,7 +34,7 @@ const artList = [
     {
         id: 5,
         title: "Walls",
-        image: require("./artImages/DSCF4108.JPG"),
+        image: require("./artImages/IMG_0973.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/walls'
         
@@ -43,7 +43,7 @@ const artList = [
      {
         id: 6,
         title: "Sculptures",
-        image: require("./artImages/DSCF4108.JPG"),
+        image: require("./artImages/101-0302.JPG"),
         className: "group hover:scale-105 duration-200",
         page: '/sculptures'
 
