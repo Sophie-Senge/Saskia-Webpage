@@ -2,7 +2,7 @@ const artList = [
     {
         id: 1,
         title: "Vases",
-        image: require("./artImages/100-9722.JPG"),
+        image: require("./artImages/100-9728.JPG"),
         className: " absolute -my-44 mx-[94px] md:mx-[110px] opacity-0 group-hover:opacity-100",
         page: '/vases'
 

@@ -12,7 +12,7 @@ function Vases (){
                 <img src={image} alt={title} className="h-80 w-72 object-cover"/>
                 <div className="">
                 <h1 className="text-xl text-zinc-900 font-headings">{title}</h1>
-                <p className='text-sm'>{description}</p>
+                <p className='text-sm text-zinc-600'>{description}</p>
                 </div>
             </div> 
             
