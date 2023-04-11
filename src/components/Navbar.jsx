@@ -34,7 +34,7 @@ function Navbar() {
 
     ]
     return (
-        <nav className="nav flex justify-around text-black items-center px-4 fixed w-full h-24 bg-white">
+        <nav className="nav flex justify-around text-black items-center px-4 z-10 fixed w-full h-24 bg-white">
             <div >
                 <h1 className="text-4xl tracking-widest font-bold px-4 uppercase font-headings hover:text-gray-200">
                     <NavLink to="/">saskia spender</NavLink>

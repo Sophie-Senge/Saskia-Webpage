@@ -19,7 +19,7 @@ function Contact() {
             <input type="text" name='name' placeholder='Name' className='p-2 border-zinc-300 border-b-[1px] focus:outline-none' />
             <input type="text" name='email' placeholder='Email' className='my-4 p-2 border-zinc-300 border-b-[1px] focus:outline-none' />
             <textarea name="message" rows="7" placeholder='Enter your message' className=' border-zinc-300 border-b-[1px] p-2 focus:outline-none'></textarea>
-            <button className='border border-spacing-2' type="submit"> Send
+            <button className='pt-2' type="submit"> Send
             </button>
           </form>
 
