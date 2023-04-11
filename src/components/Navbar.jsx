@@ -50,22 +50,22 @@ function Navbar() {
             </ul>
 
             <div
-        onClick={handleClick}
-        className='cursor-pointer text-black z-10 lg:hidden'>
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+                onClick={handleClick}
+                className='cursor-pointer text-black z-10 lg:hidden'>
+                {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
-      </div>
-      {nav && (
-        <ul className="uppercase tracking-wide flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-black text-sm font-headings">
-        {links.map(({ id, link, name }) => (
-            <li key={id} className="px-4 py-4 hover:scale-105 duration-200 hover:text-gray-200">
-                <NavLink to={link}>{name}</NavLink>
-            </li>
+            </div>
+            {nav && (
+                <ul className="uppercase tracking-wide flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-black text-sm font-headings">
+                    {links.map(({ id, link, name }) => (
+                        <li key={id} className="px-4 py-4 hover:scale-105 duration-200 hover:text-gray-200">
+                            <NavLink onClick={handleClick} to={link}>{name}</NavLink>
+                        </li>
 
-        ))}
-    </ul>
-        
-      )}
+                    ))}
+                </ul>
+
+            )}
 
         </nav>
     );
