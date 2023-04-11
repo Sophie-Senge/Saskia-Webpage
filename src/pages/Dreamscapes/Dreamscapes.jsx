@@ -4,7 +4,7 @@ import dreamList from './dreamData';
 function Dreamscapes (){
     return(
         <div className="w-full h-max bg-white">
-          <div className=" grid md:grid-rows-2 md:grid-cols-2 gap-8 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
+          <div className=" grid md:grid-rows-2 md:grid-cols-2 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
             {dreamList.map(({id, title, image, description }) =>{
                 return(
           
