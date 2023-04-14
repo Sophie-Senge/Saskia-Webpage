@@ -1,6 +1,6 @@
 const bowlList = [
     {
-        id: 1,
+        id: 0,
         title: "Title",
         image: require("./assets/101-0251.JPG"),
         className: " absolute -my-44 mx-[94px] md:mx-[110px] opacity-0 group-hover:opacity-100",
@@ -9,7 +9,7 @@ const bowlList = [
 
     },
     {
-        id: 2,
+        id: 1,
         title: "Title",
         image: require("./assets/101-0260.JPG"),
         className: "absolute -my-44 mx-20 md:mx-24 opacity-0 group-hover:opacity-100",
@@ -18,7 +18,7 @@ const bowlList = [
 
     },
     {
-        id: 3,
+        id: 2,
         title: "Title",
         image: require("./assets/101-0360.JPG"),
         className: " absolute -my-44 mx-[96px] md:mx-[110px] opacity-0 group-hover:opacity-100",
@@ -27,7 +27,7 @@ const bowlList = [
 
     },
     {
-        id: 4,
+        id: 3,
         title: "Title",
         image: require("./assets/101-0366.JPG"),
         className: " absolute -my-44 mx-[52px] md:mx-[60px] opacity-0 group-hover:opacity-100",
@@ -36,7 +36,7 @@ const bowlList = [
 
     },
     {
-        id: 5,
+        id: 4,
         title: "Title",
         image: require("./assets/101-0482.JPG"),
         className: "absolute -my-44 mx-24 md:mx-28 opacity-0 group-hover:opacity-100",
@@ -46,7 +46,7 @@ const bowlList = [
 
     },
      {
-        id: 6,
+        id: 5,
         title: "Title",
         image: require("./assets/101-0486.JPG"),
         className: "absolute -my-44 mx-16 md:mx-20 opacity-0 group-hover:opacity-100",
