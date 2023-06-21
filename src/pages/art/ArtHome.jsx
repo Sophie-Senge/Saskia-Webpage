@@ -12,7 +12,7 @@ function ArtHome (){
                 return(
            <NavLink to={page}>
                 <div key={id} className="group overflow-hidden">
-                <img src={image} alt={title} className="h-80 w-72 object-cover duration-500  hover:scale-110 "/>
+                <img src={image} alt={title} className="h-60 w-60 object-cover duration-500  hover:scale-110 "/>
                 <div className={className}>
                 <h1 className="text-2xl text-zinc-100 font-semibold font-headings">{title}</h1>
                 </div>
