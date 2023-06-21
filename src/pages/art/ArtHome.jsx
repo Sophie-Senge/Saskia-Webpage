@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 function ArtHome (){
   
     return(
-        <div className="w-full h-screen bg-white">
-          <div  className="grid md:grid-rows-2 md:grid-cols-3 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
+        <div className="w-full h-full bg-white">
+          <div  className="grid md:grid-rows-2 md:grid-cols-2 lg:grid-cols-3 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
             {artList.map(({id, title, className, image, page}) =>{
                 return(
            <NavLink to={page}>
