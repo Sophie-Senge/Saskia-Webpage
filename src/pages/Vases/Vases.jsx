@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import vaseList from './vaseData';
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 import { AiOutlineRight, AiOutlineLeft, AiOutlineClose } from "react-icons/ai";
 
 function Vases() {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-  }, []);
+
 
   // modal below
   const [slideNumber, setSlideNumber] = useState(0);
@@ -56,8 +53,8 @@ function Vases() {
         {vaseList.map(({ id, title, image, description }) => {
           return (
 
-            <div data-aos="fade-up" key={id} className="group overflow-hidden">
-              <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[4/3] object-cover" />
+            <div key={id} className="group overflow-hidden">
+              <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[3/2] object-cover" />
               <div className="">
                 <h1 className="text-xl text-zinc-900 font-headings">{title}</h1>
                 <p className='text-sm text-zinc-600'>{description}</p>
