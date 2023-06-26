@@ -10,7 +10,7 @@ function Dreamscapes (){
     const [openModal, setOpenModal] = useState(false);
 // console.log(slideNumber)
     const handleOpenModal = (id) => {
-      setSlideNumber(id)
+      setSlideNumber(id) 
       setOpenModal(true)
       console.log(id)
     }
@@ -20,7 +20,8 @@ function Dreamscapes (){
     }
 
     const prevSlide = () => {
-      slideNumber === 0 ? setSlideNumber( dreamList.length -1) : setSlideNumber(slideNumber - 1)
+      slideNumber === 0 ? setSlideNumber( dreamList.length -1) : setSlideNumber(slideNumber - 1);
+ 
     }
 
     const nextSlide = () => {
@@ -47,7 +48,7 @@ function Dreamscapes (){
                 return(
           
                 <div key={id} className="group overflow-hidden">
-                <img onClick={()=> handleOpenModal(id)} src={image} alt={title} className="cursor-pointer object-cover"/>
+                <img onClick={()=> handleOpenModal(id)} src={image} alt={title} className="aspect-[3/2] cursor-pointer object-cover"/>
                 <div className="">
                 <h1 className="text-xl text-zinc-900 font-headings">{title}</h1>
                 <p className='text-sm text-zinc-600'>{description}</p>
