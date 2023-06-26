@@ -7,16 +7,16 @@ import aboutFive from './assets/about-5.webp'
 
 function About() {
     return (<>
-        <div className='mx-auto grid grid-cols-1 md:grid-flow-col grid-rows-2 text-center justify-items-center h-screen w-full '>
-            <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pb-14 grid items-end justify-items-center'>About</h2>
+        <div className='mx-auto grid grid-cols-1 md:grid-flow-col md:grid-rows-2 text-center justify-items-center h-screen w-full '>
+            <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pt-28 md:pt-0 pb-14 grid items-end justify-items-center'>About</h2>
             <p className='mx-10'>I was born in Florence in 1970. I grew up in a family of artists in the countryside near Siena.
                 I was drawn to clay, which my father worked in his studio from the 1980s. I moved to England to complete my education, and have been based in London since my twenties.
                 In 2005 the ceramicist Betty Woodman introduced me to leaf printing in clay. Currently I work on smaller objects, like plates, as well as on the mural scale. </p>
-            <img className='mr-10' src={aboutOne} alt="saskia spender" />
+            <img className='md:mr-10' src={aboutOne} alt="saskia spender" />
 
         </div>
-        <div className='mx-auto w-full pt-28'>
-            <h1 className='text-4xl text-neutral-800 flex uppercase font-bold pb-2 font-headings tracking-widest justify-center'>what to ask of ceramic art?</h1>
+        <div className='mx-auto w-full pt-72 md:pt-28'>
+            <h1 className='md:text-4xl text-xl text-neutral-800 flex uppercase font-bold pb-2 font-headings tracking-widest justify-center'>what to ask of ceramic art?</h1>
             <h3 className='text-lg text-neutral-800 font-semibold font-headings tracking-widest pb-4 flex items-end justify-center'>Some reflections by Saskia Spender</h3>
             <hr className="w-60 h-px mx-auto my-2 bg-neutral-600 border-0 dark:bg-gray-700"/>
         </div>
