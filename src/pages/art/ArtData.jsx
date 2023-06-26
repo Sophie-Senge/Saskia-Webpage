@@ -2,7 +2,7 @@ const artList = [
     {
         id: 1,
         title: "Vases",
-        image: require("./artImages/100-9728.webp"),
+        image: require("./artImages/art-1.webp"),
         className: " absolute -my-32 mx-[94px] md:mx-[94px] opacity-0 group-hover:opacity-100",
         page: '/vases'
 
@@ -10,7 +10,7 @@ const artList = [
     {
         id: 2,
         title: "Baskets",
-        image: require("./artImages/IMG_1206.webp"),
+        image: require("./artImages/art-2.webp"),
         className: "absolute -my-32 mx-20 md:mx-24 opacity-0 group-hover:opacity-100",
         page: '/baskets'
 
@@ -18,7 +18,7 @@ const artList = [
     {
         id: 3,
         title: "Bowls",
-        image: require("./artImages/IMG_9946.webp"),
+        image: require("./artImages/art-4.webp"),
         className: " absolute -my-32 mx-[96px] md:mx-[94px] opacity-0 group-hover:opacity-100",
         page: '/bowls'
 
@@ -26,7 +26,7 @@ const artList = [
     {
         id: 4,
         title: "Tiles",
-        image: require("./artImages/IMG_1300.webp"),
+        image: require("./artImages/art-5.webp"),
         className: " absolute -my-32 mx-[96px] md:mx-[94px] opacity-0 group-hover:opacity-100",
         page: '/dreamscapes'
 
@@ -34,7 +34,7 @@ const artList = [
      {
         id: 5,
         title: "Sculptures",
-        image: require("./artImages/IMG_1260.webp"),
+        image: require("./artImages/art-3.webp"),
         className: "absolute -my-32 mx-16 md:mx-16 opacity-0 group-hover:opacity-100",
         page: '/sculptures'
 
