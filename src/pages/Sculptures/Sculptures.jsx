@@ -34,17 +34,17 @@ function Sculptures() {
 
       {openModal &&
         <div className='fixed z-[999] flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
-          <div className="flex flex-row">
-            <AiOutlineClose className="text-white fixed z-[999] top-48 md:top-10 right-10 cursor-pointer" onClick={handleCloseModel} size={30} />
-            <AiOutlineLeft className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] left-7 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
+           <div className="flex flex-row">
+            <AiOutlineClose className="text-white fixed z-[999] top-60 md:top-10 right-10 cursor-pointer" onClick={handleCloseModel} size={30} />
+            <AiOutlineLeft className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] left-4 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
             <AiOutlineRight className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
           </div>
           <div className=" scale-75">
             <img src={sculptureList[slideNumber].image} alt={sculptureList[slideNumber].title} />
           </div>
-          <div className="fixed translate-y-[200px] md:translate-y-[327px] ">
-            <h1 className="text-slate-300 text-center">{sculptureList[slideNumber].title}</h1>
-            <p className="text-slate-300">{sculptureList[slideNumber].description}</p>
+          <div className="fixed translate-y-[140px] md:translate-y-[327px] ">
+            <h1 className="text-slate-300 text-lg font-headings tracking-wider text-center">{sculptureList[slideNumber].title}</h1>
+            <p className="text-slate-300 text-xs italic">{sculptureList[slideNumber].description}</p>
           </div>
 
         </div>
@@ -55,9 +55,9 @@ function Sculptures() {
 
             <div key={id} className="group overflow-hidden">
               <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[3/2] object-cover" />
-              <div className="">
-                <h1 className="text-xl text-zinc-900 font-headings">{title}</h1>
-                <p className='text-sm text-zinc-600'>{description}</p>
+              <div className="pt-4">
+                <h1 className="text-lg text-zinc-900 font-headings">{title}</h1>
+                <p className='text-xs italic text-zinc-600'>{description}</p>
               </div>
             </div>
 
