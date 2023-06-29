@@ -20,13 +20,13 @@ const sculptureList = [
         description: 'Here will be description and measurements'
 
     },
-    {
-        id: 2,
-        title: "Title",
-        image: require("./assets/sculpture-4.webp"),
-        description: 'Here will be description and measurements'
+    // {
+    //     id: 2,
+    //     title: "Title",
+    //     image: require("./assets/sculpture-4.webp"),
+    //     description: 'Here will be description and measurements'
 
-    },
+    // },
    
  
      

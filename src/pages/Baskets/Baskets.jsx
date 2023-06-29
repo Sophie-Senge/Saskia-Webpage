@@ -55,7 +55,7 @@ function Baskets() {
           return (
 
             <div key={id} className="group overflow-hidden">
-              <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="cursor-pointer object-scale-down" />
+              <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="cursor-pointer aspect-[4/3] object-scale-down" />
               <div className="pt-3">
                 <h1 className="text-lg tracking-wider text-zinc-900 font-headings">{title}</h1>
                 <p className='text-xs italic text-zinc-600'>{description}</p>

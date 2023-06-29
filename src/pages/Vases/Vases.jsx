@@ -54,7 +54,7 @@ function Vases() {
           return (
 
             <div key={id} className="group overflow-hidden">
-              <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[3/2] object-cover" />
+              <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[4/3] object-cover" />
               <div className="pt-3">
                 <h1 className="text-lg tracking-wider text-zinc-900 font-headings">{title}</h1>
                 <p className='text-xs italic text-zinc-600'>{description}</p>

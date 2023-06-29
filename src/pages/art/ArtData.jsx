@@ -34,7 +34,7 @@ const artList = [
      {
         id: 5,
         title: "Sculptures",
-        image: require("./artImages/art-3.webp"),
+        image: require("./artImages/sculpture-main.webp"),
         className: "absolute my-[120px] mx-5 md:mx-[84px] md:opacity-0 group-hover:opacity-100",
         page: '/sculptures'
 
