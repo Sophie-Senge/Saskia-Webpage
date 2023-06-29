@@ -12,7 +12,7 @@ import Baskets from "./pages/Baskets/Baskets";
 import Bowls from "./pages/Bowls/Bowls";
 import Dreamscapes from "./pages/Dreamscapes/Dreamscapes";
 import Sculptures from "./pages/Sculptures/Sculptures";
-import Walls from "./pages/Walls/Walls";
+
 
 function App() {
   return (<Router>
@@ -27,7 +27,6 @@ function App() {
   <Route path='baskets' element={<Baskets/>}/>
   <Route path='bowls' element={<Bowls/>}/>
   <Route path='dreamscapes' element={<Dreamscapes/>}/>
-  <Route path='walls' element={<Walls/>}/>
   <Route path='sculptures' element={<Sculptures/>}/>
  </Routes>
 
