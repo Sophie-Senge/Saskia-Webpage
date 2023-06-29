@@ -61,7 +61,7 @@ function PlateShop() {
             <p className='text-sm text-justify'>Small Bowls - £90 each</p>
             <p className='text-sm text-justify'>Serving Dishes - individually priced</p>
 
-            <div className='mx-auto flex flex-col md:w-4/6 md:flex-row text-center gap-2 p-8'>
+            <div className='mx-auto flex flex-col md:w-4/6 md:flex-row text-center gap-2 pb-60 p-2 md:p-8'>
                 <div className='flex flex-col  gap-2'>
                     <img className='aspect-square object-cover ' src={activeImg} alt="shell plate" />
                     <p className='text-xs text-center italic text-neutral-600'>{activeData}</p>
