@@ -38,7 +38,7 @@ function Dreamscapes() {
             <AiOutlineLeft className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] left-4 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
             <AiOutlineRight className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
           </div>
-          <div className=" scale-75">
+          <div className=" scale-80">
             <img src={dreamList[slideNumber].image} alt={dreamList[slideNumber].title} />
           </div>
           <div className="fixed translate-y-[140px] md:translate-y-[329px] ">
@@ -52,7 +52,7 @@ function Dreamscapes() {
           return (
 
             <div key={id} className="group overflow-hidden">
-              <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="aspect-[3/2] cursor-pointer object-cover" />
+              <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="w-full aspect-[3/2] overflow-hidden cursor-pointer object-cover" />
               <div className="pt-3">
                 <h1 className="text-lg tracking-wider text-zinc-900 font-headings">{title}</h1>
                 <p className='text-xs italic text-zinc-600'>{description}</p>

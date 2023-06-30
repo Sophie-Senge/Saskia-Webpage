@@ -15,27 +15,27 @@ function PlateShop() {
     const [images] = useState({
         imgOne: {
             img: require('./assets/shell-1.JPG'),
-            data: "Shell Series plates measure approximately 26cm across and are 2cm deep",
+            data: "Oyster Series plates measure approximately 26cm across and are 2cm deep",
         },
         imgTwo: {
             img: require("./assets/shell-2.JPG"),
-            data: "Shell pasta bowls measure approximately 26cm across and are 4.5cm deep.",
+            data: "Oyster Series pasta bowls measure approximately 26cm across and are 4.5cm deep.",
         },
         imgThree: {
             img: require('./assets/shell-4.JPG'),
-            data: "Shell Series set - small shell  bowls measure approximately 18cm across and are 3.5cm deep.",
+            data: "Oyster Series set - small shell  bowls measure approximately 18cm across and are 3.5cm deep.",
         },
         imgFour: {
             img: require('./assets/plate-5.JPG'),
-            data: "Round plate set: Round plates measure approximately 27cm across and are 2cm deep. Small round bowls measure approximately 18cm across and are 3.5cm deep.",
+            data: "Wave Series plate set: Round plates measure approximately 27cm across and are 2cm deep. Small round bowls measure approximately 18cm across and are 3.5cm deep.",
         },
         imgFive: {
             img: require('./assets/plate-1.JPG'),
-            data: "Round plate option: crenellated edges",
+            data: "Wave Series plate option: crenellated edges",
         },
         imgSix: {
             img: require('./assets/shell-3.JPG'),
-            data: "Bottom of all plates have white tin glaze detailing",
+            data: "Reverse of plates",
         },
         imgSeven: {
             img: require('./assets/serving-4.JPG'),
@@ -54,7 +54,7 @@ function PlateShop() {
             <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pb-14 grid items-end justify-items-center'>Plate Shop</h2>
             <p className='text-sm text-justify'>Every plate is unique. I make each one by hand, and although I use the same materials, movements and techniques every time, no two are exactly alike. They are made with black clay, white slip, leadless glaze with copper carbonate, are fired to stoneware, and may be machine washed.</p>
             <br />
-            <p className='text-sm text-justify'>I also always have a selection of serving dishes in always varying sizes, from salt cellar to platter. Please message me if you would like to see the latest options available and to place orders.</p>
+            <p className='text-sm text-justify'>I also always have a selection of serving dishes of various sizes, from salt cellar to serving platter. Please message me if you would like to see the latest options available and to place orders.</p>
             <br />
             <p className='text-sm text-justify'>Pasta Bowls - £180 each</p>
             <p className='text-sm text-justify'>Plates - £160 each</p>
