@@ -38,7 +38,7 @@ function PlateShop() {
             data: "Bottom of all plates have white tin glaze detailing",
         },
         imgSeven: {
-            img: require('./assets/serving-1.JPG'),
+            img: require('./assets/serving-4.JPG'),
             data: "Serving dishes in various sizes.",
         }
 
