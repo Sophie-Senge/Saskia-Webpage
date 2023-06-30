@@ -34,6 +34,34 @@ const bowlList = [
         description: 'Here will be description and measurements'
 
     },
+    {
+        id: 5,
+        title: "Title",
+        image: require("./assets/bowl-7.webp"),
+        description: 'Here will be description and measurements'
+
+    },
+    {
+        id: 6,
+        title: "Title",
+        image: require("./assets/bowl-8.webp"),
+        description: 'Here will be description and measurements'
+
+    },
+    {
+        id: 7,
+        title: "Title",
+        image: require("./assets/bowl-9.webp"),
+        description: 'Here will be description and measurements'
+
+    },
+    {
+        id: 8,
+        title: "Title",
+        image: require("./assets/bowl-10.webp"),
+        description: 'Here will be description and measurements'
+
+    },
     
 
 ]

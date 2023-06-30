@@ -21,13 +21,20 @@ const dreamList = [
         description: 'Here will be description and measurements'
 
     },
-    // {
-    //     id: 3,
-    //     title: "Title",
-    //     image: require("./assets/tile-3.webp"),
-    //     description: 'Here will be description and measurements'
+    {
+        id: 3,
+        title: "Title",
+        image: require("./assets/tile-5.webp"),
+        description: 'Here will be description and measurements'
 
-    // },
+    },
+    {
+        id: 4,
+        title: "Title",
+        image: require("./assets/tile-6.webp"),
+        description: 'Here will be description and measurements'
+
+    },
     
 
 ]
