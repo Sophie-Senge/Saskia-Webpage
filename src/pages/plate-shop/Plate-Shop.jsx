@@ -54,7 +54,7 @@ function PlateShop() {
             <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pb-14 grid items-end justify-items-center'>Plate Shop</h2>
             <p className='text-sm text-justify'>Every plate is unique. I make each one by hand, and although I use the same materials, movements and techniques every time, no two are exactly alike. They are made with black clay, white slip, leadless glaze with copper carbonate, are fired to stoneware, and may be machine washed.</p>
             <br />
-            <p className='text-sm text-justify'>I also always have a selection of serving dishes of various sizes, from salt cellar to serving platter. Please message me if you would like to see the latest options available and to place orders.</p>
+            <p className='text-sm text-justify'>I also have a selection of serving dishes of various sizes, from salt cellar to serving platter. Please message me if you would like to see the latest options available and to place orders.</p>
             <br />
             <p className='text-sm text-justify'>Pasta Bowls - £180 each</p>
             <p className='text-sm text-justify'>Plates - £160 each</p>

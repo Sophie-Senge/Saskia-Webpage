@@ -35,15 +35,15 @@ function Baskets() {
         <div className='fixed z-[999] flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
           <div className="flex flex-row">
             <AiOutlineClose className="text-white fixed z-[999] top-60 md:top-10 right-10 cursor-pointer" onClick={handleCloseModel} size={30} />
-            <AiOutlineLeft className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] left-4 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
-            <AiOutlineRight className="text-white fixed translate-y-[-25px] md:translate-y-[-50px] right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
+            <AiOutlineLeft className="text-white fixed translate-y-[-20px] left-7 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
+            <AiOutlineRight className="text-white fixed translate-y-[-20px] right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
           </div>
           <div className=" scale-75">
             <img src={basketList[slideNumber].image} alt={basketList[slideNumber].title} />
           </div>
-          <div className="fixed translate-y-[140px] md:translate-y-[329px] ">
+          <div className="fixed translate-y-[160px] md:translate-y-[300px] text-center">
             <h1 className="text-slate-300 text-lg font-headings tracking-wider text-center">{basketList[slideNumber].title}</h1>
-            <p className="text-slate-300 text-xs italic">{basketList[slideNumber].description}</p>
+            <p className="text-slate-300 text-sm italic text-center">{basketList[slideNumber].description}</p>
           </div>
         </div>
       }
@@ -51,13 +51,14 @@ function Baskets() {
 
 
       <div className=" grid md:grid-rows-2 md:grid-cols-3 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
-        {basketList.map(({ id, title, image, description }) => {
+        {basketList.map(({ id, title, image, description, measurement }) => {
           return (
 
             <div key={id} className="group overflow-hidden">
               <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="cursor-pointer aspect-[4/3] object-scale-down" />
               <div className="pt-3">
-                <h1 className="text-lg tracking-wider text-zinc-900 font-headings">{title}</h1>
+                <h1 className="text-sm tracking-wider text-zinc-900 font-headings">{title}</h1>
+                <p className='text-xs italic text-zinc-600'>{measurement}</p>
                 <p className='text-xs italic text-zinc-600'>{description}</p>
               </div>
 

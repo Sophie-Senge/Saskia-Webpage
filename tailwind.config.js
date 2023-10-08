@@ -18,6 +18,12 @@ module.exports = {
         headings: ['Work Sans', 'sans-serif'],
     
       },
+      fontSize: {
+        xs: '11px',
+        sm: '12px',
+       
+        
+      }
 
     },
   },
