@@ -1,59 +1,70 @@
 const dreamList = [
     {
         id: 0,
-        title: "Title",
+        title: "Gorgon, 2023",
         image: require("./assets/tile-1.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '33cm x 41cm',
+        description: 'red stoneware, white slip, copper oxide, lead glaze',
 
     },
     {
         id: 1,
-        title: "Title",
+        title: "Dreamscape, 2022",
         image: require("./assets/tile-2.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '47.8cm x 82cm',
+        description: 'black clay, white slip, tin glaze; stoneware mounted with nails on paper and plywood',
 
     },
     {
         id: 2,
-        title: "Title",
+        title: "Meander, 2017",
         image: require("./assets/tile-3.webp"),
         image2: require("./assets/tile-4.webp"),
-        description: 'Here will be description and measurements'
+        class: 'scale-75 lg:scale-90',
+        measurement: '240cm x 360cm',
+        description: 'black clay, white slip, copper oxide, clear lead glaze',
 
     },
     {
         id: 3,
-        title: "Title",
+        title: "River Dee, 2020",
         image: require("./assets/tile-5.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '58 cm x 43cm',
+        description: 'white clay, copper oxide, clear glaze',
 
     },
     {
         id: 4,
-        title: "Title",
+        title: "The Portland Vase Across A Vine, 2018",
         image: require("./assets/tile-6.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '43cm x 29.5cm',
+        description: 'white clay, traces of red clay, cobalt oxide, clear glaze',
 
     },
     {
         id: 5,
-        title: "Menorca Pool, 2019",
+        title: "Swimming Pool, 2019",
+        class: 'scale-75 md:scale-100',
         image: require("./assets/pool.webp"),
-        description: '10 tiles, each 100cm x 200cm x 0.15cm approx. Ductal technical concrete. '
+        measurement: '200cm x 117cm x 1.7cm, each of ten panels',
+        description: 'nylon fibre reinforced concrete',
 
     },
     {
         id: 6,
-        title: "Whisteria",
+        title: "Whisteria Upside Down, 2019",
         image: require("./assets/wisteria.webp"),
-        description: '150cm x 80cm approx. Buff clay, copper oxide, clear glaze. Earthenware'
+        measurement: '177cm x 77cm',
+        description: 'white clay, copper oxide, clear glaze',
 
     },
     {
         id: 7,
         title: "Fireplace, 2020",
         image: require("./assets/fireplace.webp"),
-        description: '155cm x 155cm approx, and two appliques 150cm x 45cm approx. Red clay, slip, copper glaze, clear glaze. Earthenware'
+        measurement: 'Panel 134cm x 160cm',
+        class: 'scale-75 md:scale-100',
+        description: 'terracotta, white slip, copper oxide, lead glaze',
 
     },
     

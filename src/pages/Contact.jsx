@@ -6,7 +6,7 @@ import { SiInstagram } from "react-icons/si";
 function Contact() {
   return (
     <div id="contact" className="mx-auto h-full md:h-screen text-center place-content-center grid md:grid-cols-2">
-      <div className='mx-auto'>
+      <div className='mx-auto pt-28 md:pt-0'>
         <img className='object-cover scale-90' src={profile} alt="saskia spender" />
       </div>
       <div className='mx-10 md:pt-20 lg:pt-36'>

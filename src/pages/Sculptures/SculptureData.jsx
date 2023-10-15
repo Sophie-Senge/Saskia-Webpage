@@ -1,30 +1,34 @@
 const sculptureList = [
     {
         id: 0,
-        title: "Title",
+        title: "Forest of Symbols, 2017",
         image: require("./assets/sculpture-1.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '100cm x 30cm approx',
+        description: 'white clay, clear glaze'
 
     },
     {
         id: 1,
-        title: "Title",
+        title: "Crouching Venus",
         image: require("./assets/sculpture-2.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '45cm x 35cm',
+        description: 'copper oxide, clear glaze, glass shards, cement'
 
     },
     {
         id: 2,
-        title: "Title",
+        title: "Rocks",
         image: require("./assets/sculpture-3.webp"),
-        description: 'Here will be description and measurements'
+        measurement: '18cm x 15cm & 33cm x 26cm',
+        description: 'white clay, copper oxide, lead glaze & terracotta, opaque glaze, epoxy putty'
 
     },
     {
         id: 3,
-        title: "Title",
+        title: "Acanthus Fire",
         image: require("./assets/sculpture-6.webp"),
-        description: 'Here will be description and measurements'
+        measurement: ' 68cm x 75cm',
+        description: 'white clay, iron oxide, copper oxide, partly glazed with clear glaze'
 
     },
    

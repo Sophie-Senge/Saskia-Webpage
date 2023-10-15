@@ -32,29 +32,30 @@ function Dreamscapes() {
     <div className="w-full h-max bg-white">
 
       {openModal &&
-        <div className='fixed z-[999] flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
-          <div className="flex flex-row">
-            <AiOutlineClose className="text-white fixed z-[999] top-60 md:top-10 right-10 cursor-pointer" onClick={handleCloseModel} size={30} />
-            <AiOutlineLeft className="text-white fixed translate-y-[-20px] left-4 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
-            <AiOutlineRight className="text-white fixed translate-y-[-20px]  right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
+         <div className='fixed z-[999] group flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
+         <div className="flex  flex-row">
+         <AiOutlineClose className="text-white absolute top-[25%] md:top-[15%] lg:top-[5%] -translate-x-0 xl:-translate-x-10 tranlate-y-[0%] right-5 rounded-full p-2 bg-neutral-900 hidden group-hover:block cursor-pointer " onClick={handleCloseModel} size={30} />
+         <AiOutlineLeft className="text-white absolute top-[75%] md:top-[50%] -translate-x-0 xl:-translate-x-[-50%] tranlate-y-[-50%] left-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={prevSlide} size={30} />
+         <AiOutlineRight className="text-white absolute top-[75%] md:top-[50%]  -translate-x-0 xl:-translate-x-[50%] tranlate-y-[-50%] right-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={nextSlide} size={30} />
+       </div>
+       <div className={dreamList[slideNumber].class}>
+              <img className='w-full h-full bg-center bg-cover' src={dreamList[slideNumber].image} alt={dreamList[slideNumber].title} />
           </div>
-          <div className=" scale-75 lg:scale-100">
-            <img src={dreamList[slideNumber].image} alt={dreamList[slideNumber].title} />
-          </div>
-          <div className="fixed translate-y-[160px] md:translate-y-[300px] lg:translate-y-[400px] text-center">
-            <h1 className="text-slate-300 text-lg font-headings tracking-wider text-center">{dreamList[slideNumber].title}</h1>
-            <p className="text-slate-300 text-sm italic text-center">{dreamList[slideNumber].description}</p>
+          <div className="fixed translate-y-[140px] md:translate-y-[320px] lg:translate-y-[360px]   text-center">
+            <h1 className="text-slate-300 sm:text-md md:text-lg pt-7 lg:pt-10 font-headings tracking-wider text-center">{dreamList[slideNumber].title}</h1>
+            <p className="text-slate-300 px-2 text-sm italic text-center">{dreamList[slideNumber].description}</p>
           </div>
         </div>
       }
       <div className=" grid md:grid-rows-2 md:grid-cols-2 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
-        {dreamList.map(({ id, title, image, description }) => {
+        {dreamList.map(({ id, title, image, description, measurement }) => {
           return (
 
             <div key={id} className="group overflow-hidden">
               <img onClick={() => handleOpenModal(id)} src={image} alt={title} className="w-full aspect-[3/2] overflow-hidden cursor-pointer object-cover" />
               <div className="pt-3">
-                <h1 className="text-lg tracking-wider text-zinc-900 font-headings">{title}</h1>
+                <h1 className="text-md tracking-wider text-zinc-900 font-headings">{title}</h1>
+                <p className='text-xs italic text-zinc-600'>{measurement}</p>
                 <p className='text-xs italic text-zinc-600'>{description}</p>
               </div>
             </div>

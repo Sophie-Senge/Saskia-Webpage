@@ -33,30 +33,31 @@ function Sculptures() {
     <div className="w-full h-max bg-white">
 
       {openModal &&
-        <div className='fixed z-[999] flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
-           <div className="flex flex-row">
-            <AiOutlineClose className="text-white fixed z-[999] top-60 md:top-10 right-10 cursor-pointer" onClick={handleCloseModel} size={30} />
-            <AiOutlineLeft className="text-white fixed translate-y-[-20px] md:translate-y-[-50px] left-7 md:left-10 top-[50%] z-[999] cursor-pointer" onClick={prevSlide} size={30} />
-            <AiOutlineRight className="text-white fixed translate-y-[-20px] md:translate-y-[-50px] right-4 md:right-10 top-[50%] z-[999] cursor-pointer" onClick={nextSlide} size={30} />
+        <div className='fixed z-[999] group flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
+        <div className="flex  flex-row">
+        <AiOutlineClose className="text-white absolute top-[25%] md:top-[15%] lg:top-[5%] -translate-x-0 xl:-translate-x-10 tranlate-y-[0%] right-5 rounded-full p-2 bg-neutral-900 hidden group-hover:block cursor-pointer " onClick={handleCloseModel} size={30} />
+        <AiOutlineLeft className="text-white absolute top-[70%] md:top-[50%] -translate-x-0 xl:-translate-x-[-50%] tranlate-y-[-50%] left-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={prevSlide} size={30} />
+        <AiOutlineRight className="text-white absolute top-[70%] md:top-[50%]  -translate-x-0 xl:-translate-x-[50%] tranlate-y-[-50%] right-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={nextSlide} size={30} />
+      </div>
+          <div className="">
+            <img className="w-full h-full bg-center bg-cover" src={sculptureList[slideNumber].image} alt={sculptureList[slideNumber].title} />
           </div>
-          <div className=" scale-75">
-            <img src={sculptureList[slideNumber].image} alt={sculptureList[slideNumber].title} />
-          </div>
-          <div className="fixed translate-y-[160px] md:translate-y-[327px] ">
-            <h1 className="text-slate-300 text-lg font-headings tracking-wider text-center">{sculptureList[slideNumber].title}</h1>
+          <div className="fixed translate-y-[190px] md:translate-y-[360px] text-center">
+            <h1 className="text-slate-300 text-lg font-headings sm:pt-8 tracking-wider text-center">{sculptureList[slideNumber].title}</h1>
             <p className="text-slate-300 text-sm italic">{sculptureList[slideNumber].description}</p>
           </div>
 
         </div>
       }
       <div className=" grid md:grid-rows-2 md:grid-cols-2 gap-10 grid-rows-1 justify-center items-center  text-center mb-28 mx-28 pt-40 ">
-        {sculptureList.map(({ id, title, image, description }) => {
+        {sculptureList.map(({ id, title, image, description, measurement }) => {
           return (
 
             <div key={id} className="group overflow-hidden">
               <img src={image} alt={title} onClick={() => handleOpenModal(id)} className="cursor-pointer aspect-[3/2] object-cover" />
               <div className="pt-4">
-                <h1 className="text-lg text-zinc-900 font-headings">{title}</h1>
+                <h1 className="text-md text-zinc-900 font-headings">{title}</h1>
+                <p className='text-xs italic text-zinc-600'>{measurement}</p>
                 <p className='text-xs italic text-zinc-600'>{description}</p>
               </div>
             </div>
