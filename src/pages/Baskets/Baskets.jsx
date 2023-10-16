@@ -35,13 +35,13 @@ function Baskets() {
          <div className='fixed z-[999] group flex justify-center items-center m-0 h-screen w-screen bg-neutral-900 bg-opacity-90'>
          <div className="flex  flex-row">
          <AiOutlineClose className="text-white absolute top-[25%] md:top-[15%] lg:top-[5%] -translate-x-0 xl:-translate-x-10 tranlate-y-[0%] right-5 rounded-full p-2 bg-neutral-900 hidden group-hover:block cursor-pointer " onClick={handleCloseModel} size={30} />
-         <AiOutlineLeft className="text-white absolute top-[70%] md:top-[50%] -translate-x-0 xl:-translate-x-[-50%] tranlate-y-[-50%] left-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={prevSlide} size={30} />
-         <AiOutlineRight className="text-white absolute top-[70%] md:top-[50%]  -translate-x-0 xl:-translate-x-[50%] tranlate-y-[-50%] right-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={nextSlide} size={30} />
+         <AiOutlineLeft className="text-white absolute top-[50%] -translate-x-2 xl:-translate-x-[-50%] tranlate-y-[-50%] left-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={prevSlide} size={30} />
+         <AiOutlineRight className="text-white absolute top-[50%]  translate-x-2 xl:-translate-x-[50%] tranlate-y-[-50%] right-5 rounded-full p-2 bg-neutral-900  hidden group-hover:block cursor-pointer" onClick={nextSlide} size={30} />
        </div>
           <div className="">
             <img className='w-full h-full bg-center bg-cover' src={basketList[slideNumber].image} alt={basketList[slideNumber].title} />
           </div>
-          <div className="fixed translate-y-[190px] md:translate-y-[360px] text-center">
+          <div className="fixed translate-y-[160px] md:translate-y-[360px] text-center">
             <h1 className="text-slate-300 lg:pt-4 text-lg font-headings tracking-wider text-center">{basketList[slideNumber].title}</h1>
             <p className="text-slate-300 text-sm italic text-center">{basketList[slideNumber].description}</p>
           </div>
