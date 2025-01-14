@@ -50,7 +50,7 @@ function PlateShop() {
     const [activeData, setActiveData] = useState(images.imgOne.data);
 
     return (<>
-        <div className='mx-auto pt-32 pb-28 h-full w-4/5'>
+        <div className='lg:mx-72 mx-12 pt-32 pb-28 h-full '>
             <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pb-14 grid items-end justify-items-center'>Plate Shop</h2>
             <p className='text-sm text-justify'>Every plate is unique. I make each one by hand, and although I use the same materials, movements and techniques every time, no two are exactly alike. They are made with black clay, white slip, leadless glaze with copper carbonate, are fired to stoneware, and may be machine washed.</p>
             <br />
@@ -61,7 +61,7 @@ function PlateShop() {
             <p className='text-sm text-justify'>Small Bowls - £90 each</p>
             <p className='text-sm text-justify'>Serving Dishes - individually priced</p>
 
-            <div className='mx-auto flex flex-col md:w-4/6 md:flex-row text-center gap-2 pb-60 p-2 md:p-8'>
+            <div className='mx-auto flex flex-col md:w-4/6 md:flex-row text-center gap-2 pt-8 pb-60 p-2 md:p-8'>
                 <div className='flex flex-col  gap-2'>
                     <img className='aspect-square object-cover ' src={activeImg} alt="shell plate" />
                     <p className='text-xs text-center italic text-neutral-600'>{activeData}</p>
