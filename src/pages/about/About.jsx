@@ -7,8 +7,8 @@ import aboutFive from './assets/about-5.webp'
 
 function About() {
     return (<>
-        <div className='grid grid-cols-1 mx-12 lg:grid-flow-col lg:grid-rows-2 text-center justify-items-center h-screen lg:gap-10 lg:mx-72'>
-            <h1 className='md:text-4xl text-xl text-neutral-800 uppercase font-semibold font-headings tracking-widest pt-32 lg:pt-0 pb-8 grid items-end justify-items-center'>About</h1>
+        <div className='grid grid-cols-1 mx-28 lg:grid-flow-col lg:grid-rows-2 text-center justify-items-center h-screen lg:gap-10 lg:mx-72'>
+            <h1 className='md:text-2xl text-xl text-neutral-800 uppercase font-semibold font-headings tracking-widest pt-32 lg:pt-0 pb-8 grid items-end justify-items-center'>About</h1>
             <p className='md:mx-10'>I grew up in a family of artists in the countryside near Siena. I was drawn to clay, which my father worked from the 1980s, and in 2005 the ceramicist Betty Woodman introduced me to leaf printed tiles. My studio is in London, where I have lived since 1987. </p>
             <img className='lg:my-44 my-8 ' src={aboutOne} alt="saskia spender" />
 
@@ -20,7 +20,7 @@ function About() {
         </div> */}
         <section className='container mx-auto my-64 lg:my-8 md:px-2 md:py-16 '>
             <div className='justify-center mx-12 lg:mx-56'>
-            <h1 className='md:text-4xl text-xl text-neutral-800 flex uppercase text-center font-bold pb-2 font-headings tracking-widest justify-center'>what to ask of ceramic art?</h1>
+            <h1 className='md:text-2xl text-xl text-neutral-800 flex uppercase text-center font-bold pb-2 font-headings tracking-widest justify-center'>what to ask of ceramic art?</h1>
             <h3 className='text-lg text-neutral-800 font-semibold font-headings tracking-widest flex items-end justify-center'>Some reflections by Saskia Spender</h3>
             <hr className="w-60 h-px mx-auto my-8 bg-neutral-600 border-0 dark:bg-gray-700"/>
 

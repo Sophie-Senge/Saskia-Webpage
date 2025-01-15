@@ -50,7 +50,7 @@ function PlateShop() {
     const [activeData, setActiveData] = useState(images.imgOne.data);
 
     return (<>
-        <div className='lg:mx-72 mx-12 pt-32 pb-28 h-full '>
+        <div className='lg:mx-72 mx-28 pt-32 pb-28 h-full '>
             <h2 className='text-2xl uppercase font-semibold font-headings tracking-widest pb-14 grid items-end justify-items-center'>Plate Shop</h2>
             <p className='text-sm text-justify'>Every plate is unique. I make each one by hand, and although I use the same materials, movements and techniques every time, no two are exactly alike. They are made with black clay, white slip, leadless glaze with copper carbonate, are fired to stoneware, and may be machine washed.</p>
             <br />
