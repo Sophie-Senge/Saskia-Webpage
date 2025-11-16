@@ -5,11 +5,11 @@ import { SiInstagram } from "react-icons/si";
 
 function Contact() {
   return (
-    <div id="contact" className="lg:mx-72 mx-12 h-full md:h-screen text-center place-content-center grid md:grid-cols-2">
-      <div className=' my-32 lg:my-72 align-content:center md:pt-0'>
-        <img className='object-cover scale-60' src={profile} alt="saskia spender" />
+    <div id="contact" className="lg:mx-[11rem] mx-12 h-full md:h-screen text-center place-content-center items-center grid md:grid-cols-2">
+      <div className='mt-[7rem] lg:my-72 md:pt-0 flex items-center justify-center'>
+        <img className='object-cover w-72 md:w-80 lg:w-96 h-auto' src={profile} alt="saskia spender" />
       </div>
-      <div className='lg:pl-28 md:pl-10 pt-20 md:pt-40 lg:my-72 lg:pt-36'>
+      <div className=' md:pl-10 pt-4 md:pt-40 lg:my-72 lg:pt-36'>
         <h2 className="text-2xl font-semibold uppercase tracking-widest pb-2 font-headings">Contact</h2>
         <p>saskia@saskiaspender.com</p>
         <a className='grid place-content-center p-2' href="https://www.instagram.com/saskiaspender/?hl=en"><SiInstagram size={20}/></a>
