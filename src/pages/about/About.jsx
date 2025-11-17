@@ -8,13 +8,13 @@ import aboutFive from './assets/about-5.webp'
 function About() {
     return (<>
     <div className='grid grid-cols-1 items-center mx-8 lg:grid-flow-col  text-center justify-items-center min-h-screen lg:gap-10 lg:mx-[11rem]'>
-            <div className=''>
+            <div className='lg:mt-[4rem]'>
 
             
             <h1 className='md:text-2xl text-xl text-neutral-800 uppercase font-semibold font-headings tracking-widest pt-32 lg:pt-0 pb-4'>About</h1>
             <p className='md:mx-10 pb-4'>I grew up in a family of artists in the countryside near Siena. I was drawn to clay, which my father worked from the 1980s, and in 2005 the ceramicist Betty Woodman introduced me to leaf printed tiles. My studio is in London, where I have lived since 1987. </p>
             </div>          
-           <div>
+           <div className='lg:mt-[7rem]'>
             <img className=' ' src={aboutOne} alt="saskia spender" />
 
            </div>
