@@ -7,7 +7,7 @@ import aboutFive from './assets/about-5.webp'
 
 function About() {
     return (<>
-    <div className='grid grid-cols-1 items-center mx-8 lg:grid-flow-col  text-center justify-items-center min-h-screen lg:gap-10 lg:mx-[11rem]'>
+    <div className='grid grid-cols-1 items-center lg:grid-flow-col  text-center justify-items-center min-h-screen mx-8 lg:gap-10 lg:mx-[11rem]'>
             <div className='lg:mt-[4rem]'>
 
             
